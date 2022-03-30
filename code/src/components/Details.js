@@ -13,6 +13,8 @@ const Details = () => {
       .then((data) => setDetails(data))
   }, [movie_id])
 
+  /*We should have an error*/
+
   return (
     <section classname="details-page">
       <Link to="/" className="back-link">
